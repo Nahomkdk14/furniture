@@ -247,10 +247,11 @@ body {
 }
 .shop-img {
   position: absolute;
-  top: -70%;
+  top: -40%;
   right: 55%;
   height: 160px;
 }
+
 .liv {
   margin-left: 150px;
 }
@@ -539,7 +540,6 @@ textarea {
     display: block !important;
   }
   .d-not {
-    display: none;
     flex-direction: column;
     padding: 15px 15px 5px 15px;
     gap: 4px;
@@ -562,6 +562,9 @@ textarea {
 @media screen and (max-width: 756px) {
   .why-us {
     gap: 0px;
+  }
+  .footer-content{
+    padding-right: 0px;
   }
   .exp {
     justify-content: unset !important;
@@ -610,6 +613,9 @@ textarea {
   }
 }
 @media screen and (max-width: 685px) {
+  .footer-content{
+    padding-left: 10px;
+  }
   .shop-pics {
     height: unset !important;
     width: 46%;
@@ -621,5 +627,92 @@ textarea {
 
   .din {
     left: -40%;
+  }
+}
+@media screen and (max-width: 655px) {
+  .exp-pics,
+  .design,
+  .design > img {
+    width: 250px !important;
+    scale: 1;
+    /* height: 400px; */
+    /* aspect-ratio: 4/3; */
+  }
+}
+@media screen and (max-width: 622px) {
+  .exp,.why-us, .shop-room, .footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  .sub{
+    width: 90vw !important;
+  }
+  .boxes-hold{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px 120px 0px;
+  }
+  .boxes{
+    justify-content: center;
+    width: fit-content;
+    gap: 16px;
+    align-items: center;
+  }
+  .cards{
+    height: 175px;
+    width: 175px;
+  }
+  .catalogue-wrapper{
+    padding: 0px 20px;
+  }
+  .shop-pics{
+    width: 60%;
+    margin-bottom: 70px;
+  }
+  .liv,.solo{
+    left: 0%;
+  }
+  .din{
+    left: -6%;
+  }
+  .shop-briefs{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .shop-writes{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+  .exp-pics,
+  .design,
+  .design > img {
+    width: 90vw !important;
+    scale: 1;
+    display: flex;
+    justify-content: space-around;
+    /* height: 400px; */
+    /* aspect-ratio: 4/3; */
+  }
+  .last-pages{
+    display: none;
+  }
+  .footer-briefs{
+    width: 90vw;
+  }
+  .form{
+    width: 90vw !important;
+    align-content: center;
+    justify-content: center;
+  }
+  .peer-form,textarea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
   }
 }

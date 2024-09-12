@@ -716,3 +716,44 @@ textarea {
     width: 60%;
   }
 }
+@media screen and (max-width: 478px) {
+  .shop-pics{
+    width: 60vw;
+    margin-bottom: 70px;
+  }
+  .din{
+    left:-18%;
+  }
+  .peer-form,textarea{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 478px) {
+  .shop-pics{
+    width: 65vw;
+    margin-bottom: 70px;
+  }
+  .din{
+    left:-40%;
+  }
+  .liv,.solo{
+    left: -10%;
+  }
+  .peer-form,textarea{
+    width: 70%;
+  }
+  .main-title{
+    width: 400px !important;
+    font-size: 33px ;
+  }
+  .cards{
+    height: 125px;
+    width: 125px;
+  }
+  .boxes-hold{
+    padding: 50px 0px 50px 0px;
+  }
+  .shop-writes{
+    width: 60vw;
+  }
+}
